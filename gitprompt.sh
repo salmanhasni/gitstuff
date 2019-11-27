@@ -78,5 +78,5 @@ git_prompt() {
 
 # Sample prompt declaration. Tweak as you see fit, or just stick
 # "$(git_prompt)" into your favorite prompt.
-PS1='\u@\h:\w$(git_prompt)\[\033[00m\]\$ '
+PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h:\[\033[1;35m\]\w$(git_prompt)\[\033[00m\]\$ '
 
